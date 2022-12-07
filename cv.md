@@ -32,7 +32,8 @@ I hope that my previous experience and skills would help me to get through inten
 
 ### Code example
 *This is a part of a code for simple calculator web app, which have light and dark themes for users. By clicking on button you can switch color scheme. This event handler change color of calculator and buttons background, also switch background image of theme switch button.*  
-`themeToggleBtn.onclick = () => {
+```
+themeToggleBtn.onclick = () => {
     // event.preventDefault();
     wrapper.classList.toggle("lightTheme");
     deleteBtn.classList.toggle("lightTheme");
@@ -44,7 +45,8 @@ I hope that my previous experience and skills would help me to get through inten
     for (let numBtn of numBtns) {
         numBtn.classList.toggle("lightTheme");
     }
-}`  
+}
+``` 
 
 ---
 
