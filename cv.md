@@ -1,5 +1,5 @@
 # Artem Kotugin  
-**Junior Frontend developer**  
+### Junior Frontend developer  
 
 ---
 
@@ -18,3 +18,34 @@ new technologies, get relevant skills which can help to get me a new job opportu
 I hope that my previous experience and skills would help me to get through intense learning process and I'll be able to work with new intresting projects.  
 
 ---
+
+### Hard skills
+- HTML5, CSS3
+- JavaScript
+- Git (GitHub, GitLab)
+- PL/SQL (Oracle databases)
+- JSON, Postman, OpenAPI
+- Atlassian Jira
+- Agile methodology
+
+---
+
+### Code example
+*This is a part of a code for simple calculator web app, which have light and dark themes for users. By clicking on button you can switch color scheme. This event handler change color of calculator and buttons background, also switch background image of theme switch button.*  
+`themeToggleBtn.onclick = () => {
+    // event.preventDefault();
+    wrapper.classList.toggle("lightTheme");
+    deleteBtn.classList.toggle("lightTheme");
+    if (wrapper.classList.contains('lightTheme')) {
+        document.querySelector('.themeIcon').src='./img/sun.png';
+    } else {
+        document.querySelector('.themeIcon').src='./img/moon.png';
+    };
+    for (let numBtn of numBtns) {
+        numBtn.classList.toggle("lightTheme");
+    }
+}`  
+
+---
+
+
